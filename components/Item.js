@@ -30,9 +30,7 @@ export default function Item () {
                         width: 100%;
                     }
                     .Item {
-                        min-width: 293px;
-                        max-width: 293px;
-                        min-height: 293px; 
+                        min-height: 296px;
                         padding: 1em;
                         box-sizing: border-box;
                     }

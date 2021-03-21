@@ -11,7 +11,6 @@ export default function MainContainer(props) {
                     width: 100%;
                     max-width: 1100px;
                     margin: 1em auto;
-                    border: 1px solid #e4e2e2;
                     border-radius: .5em;        
                 }            
             `}</style>

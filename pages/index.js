@@ -17,21 +17,17 @@ export default function Home() {
           <Collection></Collection>
           <Collection></Collection>
           <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>          
+          <Collection></Collection>  
         </div>
       </MainContainer>
       <footer>
-        <a
+        {/* <a
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <span>@bersoriano</span>
-        </a>
+        </a> */}
       </footer>
 
       <style jsx>{`
@@ -145,24 +141,6 @@ export default function Home() {
             width: 100%;
             flex-direction: column;
           }
-        }
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        body {
-          background-color: #ececec;
-          padding: 0;
-          margin: 0;
-          font-size: 12px;
-          letter-spacing: .02em;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
-
-        * {
-          box-sizing: border-box;
         }
       `}</style>
     </div>

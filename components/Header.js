@@ -14,6 +14,7 @@ export default function Header() {
                     background-color: white;
                     min-height: 50px;
                     border: 1px solid #e4e2e2;
+                    font-size: 1.5em;
                 }
                 .headerContainer {
                     display: flex;
@@ -24,7 +25,12 @@ export default function Header() {
                 }
                 h1 {
                     cursor: pointer;
-                }            
+                    font-size: 1.5em;;
+                }
+                .flex {
+                    display: flex;
+                    flex: 1;
+                }                              
             `}</style>       
         </div>     
     )
